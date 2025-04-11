@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Government Policy Dissemination</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<style>
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body {
+font-family: 'Roboto', sans-serif;
+line-height: 1.6;
+background-color: #f4f4f4;
+color: #333;
+}
+
+header {
+background: #007BFF;
+color: white;
+padding: 20px 0;
+}
+
+.container {
+width: 80%;
+margin: auto;
+overflow: hidden;
+}
+
+h1 {
+text-align: center;
+}
+
+nav {
+text-align: center;
+}
+
+nav ul {
+list-style: none;
+}
+
+nav ul li {
+display: inline;
+margin: 0 15px;
+}
+
+nav ul li a {
+color: white;
+text-decoration: none;
+font-weight: bold;
+}
+
+main {
+padding: 20px;
+background: white;
+margin: 20px 0;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+margin-bottom: 20px;
+}
+
+h2 {
+color: #007BFF;
+border-bottom: 2px solid #007BFF;
+padding-bottom: 5px;
+}
+
+article {
+background: #f9f9f9;
+padding: 15px;
+border-radius: 5px;
+margin-bottom: 10px;
+}
+
+form {
+display: flex;
+flex-direction: column;
+}
+
+label {
+margin-bottom: 5px;
+}
+
+input, textarea {
+margin-bottom: 15px;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+button {
+padding: 10px;
+background-color: #007BFF;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #0056b3;
+}
+
+footer {
+text-align: center;
+padding: 10px 0;
+background: #007BFF;
+color: white;
+position: relative;
+bottom: 0;
+width: 100%;
+}
+</style>
+</head>
+<body>
+<header>
+<div class="container">
+<h1>Government Policy Dissemination Platform</h1>
+<nav>
+<ul>
+<li><a href="#about">About Us</a></li>
+<li><a href="#policies">Policies</a></li>
+<li><a href="#resources">Resources</a></li>
+<li><a href="#contact">Contact Us</a></li>
+</ul>
+</nav>
+</div>
+</header>
+<img src="/Users/arfathussain/Downloads/images-2.png" alt="description" />
+<img src="/Users/arfathussain/Downloads/istockphoto-1205933573-612x612-3.jpg" alt="description" />
+<img src="/Users/arfathussain/Downloads/images.jpeg" alt="description" />
+<img src="/Users/arfathussain/Downloads/images-3.jpg" alt="description" />
+
+
+<main class="container">
+<section id="about">
+<h2>About Us</h2>
+<h3><p>Welcome ! We are committed to delivering top-notch services to our community. We aim to inform Village peoples about the Latest Schemes of Indian Government. Our goal is to make government policies and information easily accessible to our villagers.
+ </p><h/3>
+</section>
+
+<section id="policies">
+    <h2>Government Policies</h2>
+    <article>
+        <h3>Healthcare Policy</h3>
+        <p>This policy aims to improve access to healthcare services for all citizens, ensuring that everyone can receive the medical attention they need without financial burden.</p>
+<ul>
+<li><a href="https://gbnagar.nic.in/survey2018-mhfw-healthprotection/">Link 🔔</a></li>
+</article>
+<article>
+        <h3>Environmental Protection Act</h3>
+        <p>The Environmental Protection Act is designed to safeguard natural resources and promote sustainable practices to protect the environment for future generations.</p>
+<ul>
+<li><a href="https://www.greaternoidaauthority.in/ep13418">Link 🔔</a></li>
+
+    </article>
+    <article>
+        <h3>Education Policy</h3>
+        <p>This initiative focuses on enhancing the quality of education through updated curricula, teacher training, and increased funding for schools in underserved areas.</p>
+<ul>
+<li><a href="https://gbnagar.nic.in/primary-education/">Link 🔔</a></li>
+    </article>
+    <article>
+
+</section>
+
+<section id="resources">
+<h2>Resources</h2>
+<ul>
+<li><a href="https://www.india.gov.in/my-government/documents/policy"> New Policies 🗞️</a></li>
+<li><a href="https://powermin.gov.in/en/content/new-government-policies-and-programmes">New Policies 🗞️</a></li>
+
+<section id="about">
+<h2>About Us</h2>
+<p>Welcome to the Government Policy Dissemination Platform. Our mission is to provide the public with easy access to government policies and information.</p>
+<p>Our team consists of dedicated professionals:</p>
+<ul>
+<li><strong>Arfat Hussain</strong> - Project Manager</li>
+<li><strong>Nirupam Rabha</strong> - Policy Analyst</li>
+<li><strong>Raj kumar</strong> - Communications Specialist</li>
+</ul>
+</section>
+<section id="contact">
+    <h2>Contact Us</h2>
+    <form action="/submit-contact" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" required>
+
+        <label for="inquiry-type">Type of Inquiry:</label>
+        <select id="inquiry-type" name="inquiry-type" required>
+            <option value="">Select...</option>
+            <option value="general">General Inquiry</option>
+            <option value="feedback">Feedback</option>
+            <option value="support">Support Request</option>
+            <option value="other">Other</option>
+        </select>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+</section>
